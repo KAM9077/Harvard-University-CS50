@@ -1,0 +1,22 @@
+0.  GIF 256 / BMP 256 /PNG 16 million colors / JPEG 16 million colors.
+1.  GIf format
+2.  Lossy compression: we don't get exactly the same thing back out of the file that we thought we put in
+    Lossless compression:  we can read back out of the file exactly the same data that we wrote into it.
+3.  JPEG format
+4   The system remove the file’s reference from the containing directory, The file’s blocks are then placed on the free list
+5.  Erases directory metadata. Sanitizes Windows swap file when run from DOS. Sanitizes slack space by creating huge temporary files
+6   its a header file that provides access to several functions related to integer standards like uint8_t, uint32_t, int32_t, and uint16_t
+    They specify the exact width of integers.
+7.  uint8_t: is for define an unsined integer with 8 bite/ uint32_t:is for define an unsined integer with 32 bite
+    int32_t:is for define a sined integer with 32 bite/ uint16_t:is for define an unsined integer with 16 bite.
+8.  Byte: 1 /DWORD: 4/  LONG: 4/ WORD: 2.
+9.  The header field used to identify the BMP and DIB file is 0x42 0x4D in hexadecimal, same as BM in ASCII
+10. bfSize describes the entire file size in bytes, biSize describes the size of BITMAPINFOHEADER in bytes,
+11. TODO
+12. biBitCount.
+13. fopen will return null if it cannot open the file if there isn't enough memory or the file cannot be found.
+14. The third argument determines the number of elements fread will read So this argument is always 1 because we are always reading for file.
+15. 1
+16. fseek moves the file position indicator.
+17. SEEK_CUR is an option used in fseek to set the offset relative to the current pointer position.
+18. it is a man but i dont who is.
